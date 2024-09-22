@@ -1,7 +1,8 @@
-
-
-
-
+langchain==0.2.1
+langchain-community==0.2.1
+langchain-core==0.2.3
+langchain-openai==0.1.7
+streamlit==1.35.0
 
 st.title("Ask Anything")
 
