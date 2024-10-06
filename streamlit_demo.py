@@ -3,7 +3,8 @@
 
 
 
-st.title("Aks Anything")
+
+st.title("Ask Anything")
 
 with st.sidebar:
     st.title("Provide Your API Key")
