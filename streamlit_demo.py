@@ -9,7 +9,7 @@ st.title("Ask Anything")
 
 with st.sidebar:
     st.title("Provide Your API Key")
-    OPENAI_API_KEY = st.text_input("OpenAI API KEY", type="password")
+    OPENAI_API_KEY=st.text_input("OpenAI API KEY", type="password")
 if not OPENAI_API_KEY:
     st.info("Enter your OpenAI API Key to Continue:")
     st.stop()
